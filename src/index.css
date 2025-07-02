@@ -125,7 +125,7 @@ body {
           }
 
           a {
-            @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
+            @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow duration-300 ease-in;
           }
         }
       }
