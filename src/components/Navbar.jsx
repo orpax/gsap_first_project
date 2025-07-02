@@ -35,13 +35,17 @@ const Navbar = () => {
     <nav className="bg-transparent backdrop-blur-xs">
       <div>
         <a href="#" className="flex items-center gap-2 md:flex-row">
-          <img src="/images/logo.png" alt="logo" />
-          <p>Arak | Kopi</p>
+          <p className="hover:text-lime-500 duration-300 ease-in">
+            Arak | Kopi
+          </p>
         </a>
 
         <ul>
           {navLinks.map((link) => (
-            <li key={link.id}>
+            <li
+              key={link.id}
+              className="hover:text-lime-500 duration-300 ease-in"
+            >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
