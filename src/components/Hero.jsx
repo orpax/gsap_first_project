@@ -40,7 +40,7 @@ const Hero = () => {
           scrub: true,
         },
       })
-      .to(".right-leaf", { y: 500 }, 0)
+      .to(".right-leaf", { y: -300 }, 0)
       .to(".left-leaf", { y: -300 }, 0);
 
     const startValue = isMobile ? "top 80%" : "center 60%";
@@ -71,7 +71,7 @@ const Hero = () => {
           className="title
               "
         >
-          Arak | Kopi
+          Arak | Bali
         </h1>
 
         <img
@@ -90,17 +90,17 @@ const Hero = () => {
           <div className="content">
             <div className="space-y-5 hidden md:block">
               <p className="subtitle text-lg fw-bold">Anget. Pait. Kenceng</p>
-              <p className="subtitle text-lime-400/80">
+              <p className="subtitle text-lime-400/80 text-left">
                 Lancarkan Hidup <br />
-                Dengan Arak Dan Kopi
+                Dengan Arak Dari Bali
               </p>
             </div>
 
             <div className="view-cocktails">
-              <p className="subtitle mb-[20px]">
+              <p className="subtitle">
                 Every cocktail on our menu is a blend of premium ingredients,
                 creative flair, and timeless recipes — designed to delight your
-                senses.{" "}
+                senses.
                 <span className="rounded-2xl cursor-pointer text-lime-400/80">
                   <a href="#">Views Arak Bali</a>
                 </span>

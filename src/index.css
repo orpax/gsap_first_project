@@ -373,4 +373,8 @@ body {
       @apply absolute bottom-0 right-0 lg:w-96 w-1/3 pointer-events-none;
     }
   }
+
+  .scale {
+    @apply hover:scale-107 transition-transform duration-300 ease-in-out;
+  }
 }

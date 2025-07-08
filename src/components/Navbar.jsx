@@ -36,7 +36,7 @@ const Navbar = () => {
       <div>
         <a href="#" className="flex items-center gap-2 md:flex-row">
           <p className="hover:text-lime-500 duration-300 ease-in">
-            Arak | Kopi
+            Arak | Bali
           </p>
         </a>
 
