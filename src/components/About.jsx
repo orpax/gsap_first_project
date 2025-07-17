@@ -44,7 +44,8 @@ const About = () => {
               Where every detail matters <span className="text-white">-</span>{" "}
               from muddel to garnish
             </h2>
-
+          </div>
+          <div className="md:col-span-4">
             <div className="sub-content">
               <p>
                 Every cocktail we serve is a reflection of our obsession with
