@@ -300,7 +300,7 @@ body {
         @apply flex items-center justify-between w-full absolute;
 
         button {
-          @apply text-white hover:text-yellow cursor-pointer transition-colors max-w-36;
+          @apply text-white hover:text-lime-400/80 cursor-pointer transition-colors max-w-36;
 
           span {
             @apply text-3xl font-modern-negra leading-none hidden md:block;
